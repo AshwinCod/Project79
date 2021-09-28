@@ -1,0 +1,105 @@
+body{
+	 background-repeat: no-repeat;
+	}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	  float: left;
+	display: flex;
+	}
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	font-size: 25px;
+	font-family: cursive;
+  }
+  #menu_list{
+	background-color:#ffc400;
+	color: rgb(0, 0, 0); 
+	width: 200px;
+	border-radius: 5px;
+	border-color: orange;
+  }
+  #display_menu{
+	  color: rgb(15, 15, 233);
+  }
+  .block1{
+	margin-left: 20px;
+	width: 20%;
+	padding: 5px;
+  }
+  #display_addedmenu{
+	width: 80%;
+	padding: 120px;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_toppings{
+	padding-left: 5px;
+	width:150px;
+	height:100px;
+	border: none;
+	background-color:#e2062c;
+	color:black;
+	font-size: 15px;
+	font-family: cursive;
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+
+ }
+
+
+#im1{
+	width:100px;
+	height: 80px;
+}
+input{
+	padding: 30px;
+	color: green;
+}
+#btn btn-success{
+	padding-left: 20px;
+}
